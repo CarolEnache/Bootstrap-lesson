@@ -66,6 +66,7 @@
       "modules": "_modules",
       "layouts": "_layouts",
       "images": "_images",
+      "fonts": "_fonts",
       "styles": "_styles",
       "scripts": "_scripts",
       "data": "_data"
