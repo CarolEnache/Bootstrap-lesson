@@ -33,6 +33,12 @@ body{
   #header img {
     margin: 0 auto;
   }
+  #social{
+    text-align: center;
+  }
+  #social hr {
+    margin: 8% auto;
+  }
 }
 
 .navbar{
@@ -82,18 +88,37 @@ body{
   margin: 5% 0;
 }
 
-#headre,
-a,
-.fa {
+#header a .fa {
   color:#fff;
 }
 
-#headre,
-a,
-.fa:hover {
+#header a .fa:hover {
   color:#ccc;
 }
 
+// solial
+
+#social {
+  padding:4.25rem o;
+
+}
+#social .fa {
+  font-size: 1.5rem;
+  color:#be2835;
+  border: 2px solid #be2835;
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+  text-align: center;
+  padding: 30% 0;
+  margin-top: 10px;
+  transition:all 0.4s ease-in-out;
+
+}
+#social .fa:hover{
+  color:white;
+  background:#be2835;
+}
 
 
 
