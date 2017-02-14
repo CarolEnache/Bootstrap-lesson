@@ -16,6 +16,24 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+html,
+body{
+  height: 100%;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.btn {
+  transition: all 0.3s ease-in-out;
+}
+
+@media(max-width:768px){
+  #header {
+    text-align:center;
+  }
+  #header img {
+    margin: 0 auto;
+  }
+}
 
 .navbar{
   background-color: rgba(21,31,33,0.5);
@@ -37,3 +55,52 @@
 .navbar-toggler{
   color: white;
 }
+// header
+
+#header{
+  background: url('../images/img/stars-bg.jpg') center center no-repeat;
+  background-size:cover;
+  height:100%;
+  color: white;
+  display:flex;
+  align-items:center; 
+}
+
+#header img {
+  padding: 0 0 20;
+  width: 80%;
+}
+
+#header .header-right {
+  background-color: rgba(0,0,0,0.5);
+  padding:30px;
+  border-radius: 10px;
+}
+
+#header,
+.fa {
+  margin: 5% 0;
+}
+
+#headre,
+a,
+.fa {
+  color:#fff;
+}
+
+#headre,
+a,
+.fa:hover {
+  color:#ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
