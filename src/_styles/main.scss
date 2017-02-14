@@ -184,10 +184,26 @@ body{
   padding: 15px 0;
 }
 
-
-
 // END WHY
+// CUSTOMERS
 
+#cutomers {
+  padding:5rem 0;
+}
+
+#cutomers .carousel-indicators li {
+  background-color: #be2835;
+}
+
+#cutomers .carousel-inner {
+  margin-bottom: 50px;
+}
+
+#cutomers .carousel-indicators {
+  margin-bottom: -50px;
+}
+
+// END COSTUMERS
 
 
 
