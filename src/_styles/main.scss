@@ -36,8 +36,14 @@ body{
   #social{
     text-align: center;
   }
-  #social hr {
+  #social hr, #who hr {
     margin: 8% auto;
+  }
+  #who{
+    text-align: center;
+  }
+  #who img {
+    margin-top: 50%;
   }
 }
 
@@ -119,9 +125,23 @@ body{
   color:white;
   background:#be2835;
 }
+// who
 
+#who{
+  padding:5rem 0;
+  background-color:#f6f6f6; 
+}
+#who .btn-who{
+  background-color: #be2835;
+  color:#fff;
+  width:50%;
+}
 
-
+#who .btn-who:hover{
+  background-color: transparent;
+  border: 1px solid #be2835;
+  color: #be2835;
+}
 
 
 
