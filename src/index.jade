@@ -416,14 +416,46 @@ block content
             .card-block
               button.btn.btn-outline-info.btn-block(type="button") SIGN UP
 
-
-
-
- 
-
-
-
   //- END PRICING
+  //- CONSTACT
+
+  section#contact
+    .container.text-xs-center
+
+      .row
+        .col-md-12
+          h2 Contact US
+          hr(width="30%")
+          p Need to get in touch? Fill in the form below for more information
+
+      .row
+        .col-md-12
+          form
+            .col-md-6
+              fieldset.form-group
+                input#email.form-control.form-control-sm(type="email" placeholder="email...")
+              fieldset.form-group
+                input#name.form-control.form-control-sm(type="text" placeholder="name...")
+              fieldset.form-group
+                input#subject.form-control.form-control-sm(type="email" placeholder="subject...")
+
+            .col-md-6
+              fieldset.form-group
+                textarea#message.form-control.form-control-sm(placeholder="message..." rows="3")
+
+              button.btn.btn-outline-info.btn-block(type="submit") Submit
+
+
+
+
+
+
+
+
+
+
+
+  //- END CONTACT
 
 
 

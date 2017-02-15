@@ -67,7 +67,7 @@ body{
 .navbar-toggler{
   color: white;
 }
-// header
+// HEADER
 
 #header{
   background: url('../images/img/stars-bg.jpg') center center no-repeat;
@@ -102,7 +102,7 @@ body{
   color:#ccc;
 }
 
-// solial
+// SOCIAL
 
 #social {
   padding:4.25rem o;
@@ -125,7 +125,7 @@ body{
   color:white;
   background:#be2835;
 }
-// who
+// WHO
 
 #who{
   padding:5rem 0;
@@ -142,7 +142,7 @@ body{
   border: 1px solid #be2835;
   color: #be2835;
 }
-// work
+// WORK
 
 #work {
   padding:5rem 0;
@@ -171,7 +171,6 @@ body{
   opacity:1;
   z-index: 1;
 }
-// end work
 // WHY
 
 #why {
@@ -183,8 +182,6 @@ body{
   color: #be2835;
   padding: 15px 0;
 }
-
-// END WHY
 // CUSTOMERS
 
 #cutomers {
@@ -203,7 +200,6 @@ body{
   margin-bottom: -50px;
 }
 
-// END COSTUMERS
 // PRICING
 
 #pricing {
@@ -227,7 +223,11 @@ body{
   background-color: #be2835;
 }
 
-// END PRICING
+// CONTACT
+
+#contact{
+  padding:5rem 0;  
+}
 
 
 
