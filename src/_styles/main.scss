@@ -2,6 +2,7 @@
 @import 'node_modules/normalize.css/normalize';
 // @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import 'node_modules/font-awesome/scss/font-awesome.scss';
+@import 'node_modules/animate-sass/_animate.scss';
 
 
 // Import Modules
@@ -55,16 +56,10 @@ body{
   border-bottom: 1px solid #dedede;
   font-family: 'Alegreya Sans', sans-serif;
 }
-.navbar,
-.nav,
-.nav-item,
-.nav-link{
+.navbar .nav .nav-item .nav-link{
   color: #d1d1d1;
 }
-.navbar,
-.nav,
-.nav-item,
-.nav-link:hover{
+.navbar .nav .nav-item .nav-link:hover{
   color: #fff;
 }
 .navbar-toggler{
@@ -92,8 +87,7 @@ body{
   border-radius: 10px;
 }
 
-#header,
-.fa {
+#header .fa {
   margin: 5% 0;
 }
 
@@ -108,7 +102,7 @@ body{
 // SOCIAL
 
 #social {
-  padding:4.25rem o;
+  padding:4.25rem 0;
 
 }
 #social .fa {
