@@ -45,6 +45,9 @@ body{
   #who img {
     margin-top: 50%;
   }
+  #footer {
+    text-align: center;
+  }
 }
 
 .navbar{
@@ -228,7 +231,25 @@ body{
 #contact{
   padding:5rem 0;  
 }
+ // footer
 
+  #footer{
+    padding:2rem 0;
+    background-color: #484848;
+    color: white;
+  }
+
+  #footer a {
+    color: white;
+  }
+
+  #footer a:hover{
+    color:#be2835;
+  }
+
+  #footer .fa {
+    padding: 0 5px;
+  }
 
 
 
